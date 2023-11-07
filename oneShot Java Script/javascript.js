@@ -131,7 +131,7 @@ else if (age>56)
 }*/
 
 //! Loops in JavaScript
- var arr = [1, 2, 3, 4, 5, 6, 7];
+ //var arr = [1, 2, 3, 4, 5, 6, 7];
 // console.log(arr);
 // for (var i = 0; i < arr.length; i++) {
 //   console.log(arr[i]);
@@ -140,8 +140,23 @@ else if (age>56)
 // arr.forEach(function (element) {
 //   console.log(element);
 // });
-let j = 0;
-while(j<arr.length){
-  console.log(arr[j]);
-  j++;
-}
+// let j = 0;
+// while(j<arr.length){
+//   console.log(arr[j]);
+//   j++;
+// }
+
+//! Array Methods 
+let myArr = ["Fan", "Camera", 34, null, true];
+console.log(myArr.length);
+//myArr.pop();
+//myArr.push("mohit")
+//myArr.shift()
+//myArr.unshift("mohit")
+const newLen = myArr.unshift("Harry")
+console.log(newLen);
+console.log(myArr);
+
+//! String Method in JavaScript 
+
+
