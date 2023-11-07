@@ -48,7 +48,7 @@ At a very high level, there are two types of data types in JavaScript
 2. Reference data types: Arrays and Objects
 */
 
-var arr = [1, 2, "bablu", 4, 5]
+var arr = [1, 2, "bablu", 4, 5];
 //console.log(arr);
 
 //! Operators in JavaScript
@@ -79,39 +79,39 @@ var y = 56;
 // console.log(x < y);
 // console.log(x > y);
 
-//! Logical Operators 
-//* Logical and 
+//! Logical Operators
+//* Logical and
 
 // console.log(true && true);
 // console.log(true && false);
 // console.log(false && true);
 // console.log(false && false);
 
-//* Logical or 
+//* Logical or
 
 // console.log(true ||  true);
 // console.log(true || false);
 // console.log(false ||  true);
 // console.log(false ||  false);
 
-//* Logical not 
+//* Logical not
 // console.log(!false);
 // console.log(!true);
 
 //! function in JavaScript
-function avg(a, b){
-  c = (a + b)/2;
+function avg(a, b) {
+  c = (a + b) / 2;
   return c;
 }
 
 // DRY = Do Not Repeat Yourself
-c1 = avg(4,6);
+c1 = avg(4, 6);
 c2 = avg(14, 16);
 //console.log(c1, c2);
 
-//! conditionals in javaScript 
+//! conditionals in javaScript
 var age = 4;
-// Single if statements 
+// Single if statements
 /*if (age > 6){
   console.log('you are not a kid');
 }
@@ -131,3 +131,17 @@ else if (age>56)
 }*/
 
 //! Loops in JavaScript
+ var arr = [1, 2, 3, 4, 5, 6, 7];
+// console.log(arr);
+// for (var i = 0; i < arr.length; i++) {
+//   console.log(arr[i]);
+// }
+
+// arr.forEach(function (element) {
+//   console.log(element);
+// });
+let j = 0;
+while(j<arr.length){
+  console.log(arr[j]);
+  j++;
+}
