@@ -147,16 +147,63 @@ else if (age>56)
 // }
 
 //! Array Methods 
-let myArr = ["Fan", "Camera", 34, null, true];
-console.log(myArr.length);
+//let myArr = ["Fan", "Camera", 34, null, true];
+//console.log(myArr.length);
 //myArr.pop();
 //myArr.push("mohit")
 //myArr.shift()
 //myArr.unshift("mohit")
-const newLen = myArr.unshift("Harry")
-console.log(newLen);
-console.log(myArr);
+//const newLen = myArr.unshift("Harry")
+//console.log(newLen);
+//console.log(myArr);
 
 //! String Method in JavaScript 
 
+let myLovelyString = "Mohit is a good Boy";
+// console.log(myLovelyString.length);
+// console.log(myLovelyString.indexOf("good"));
 
+//console.log(myLovelyString.slice(0,5));
+
+//d = myLovelyString.replace("Mohit", "Rohan");
+
+//! Dates in JavaScript 
+
+let myDate = new Date();
+
+// console.log(myDate.getTime());
+// console.log(myDate.getFullYear());
+// console.log(myDate.getDay());
+// console.log(myDate.getMinutes());
+// console.log(myDate.getHours());
+
+//! DOM Maniulation in JavaScript 
+//let elem = document.getElementById('click');
+//console.log(elem);
+
+//let elemClass = document.getElementsByClassName('container')
+//console.log(elemClass);
+//elemClass[0].style.background = "Yellow"
+//elemClass[0].style.height = "300px"
+//elemClass[0].style.width = "200px"
+// elemClass[0].classList.add("box")
+// elemClass[0].classList.add("boxes")
+// elemClass[0].classList.remove("boxes")
+// console.log(elem.innerHTML);
+// console.log(elem.innerText);
+
+// console.log(elemClass[0].innerHTML);
+// console.log(elemClass[0].innerText);
+
+// tn = document.getElementsByTagName('div')
+// console.log(tn);
+
+// createdElement = document.createElement('p');
+// createdElement.innerText = "This is a created para";
+
+
+ //! Selecting using Query
+// sel = document.querySelector('.container')
+// console.log(sel);
+// sel = document.querySelectorAll('.container')
+// console.log(sel);
