@@ -207,3 +207,5 @@ let myDate = new Date();
 // console.log(sel);
 // sel = document.querySelectorAll('.container')
 // console.log(sel);
+
+//! Events in JavaScript 
