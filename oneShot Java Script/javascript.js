@@ -209,3 +209,5 @@ let myDate = new Date();
 // console.log(sel);
 
 //! Events in JavaScript 
+let a = 45;
+let b = 35; 
