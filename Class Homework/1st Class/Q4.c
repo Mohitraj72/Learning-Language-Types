@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <math.h>
+//#include <math.h>
 
 void main (){
 int radius;                // area of circle  = πr2

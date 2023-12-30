@@ -1,4 +1,4 @@
-// Surface area of cone 
+// Surface area of cone = πr(r+h2+r2)
 
 #include <stdio.h>
 #include <math.h>

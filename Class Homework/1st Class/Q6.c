@@ -14,7 +14,7 @@ void main()
   
   volume = PI * radius * radius * height;
 
-  // Volume of Sphere
+  // Volume of Sphere = 4/3 π r³
   
   int sphere = (4/3)*(PI*radius*radius*radius);
   
