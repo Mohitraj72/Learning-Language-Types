@@ -1,3 +1,4 @@
+//! Print hello world 5 times 
 #include <stdio.h>
 
 int main()
@@ -5,7 +6,7 @@ int main()
 
   for (int i = 1;
        i <= 5;
-       i=i+2)
+       i++)
   {
     printf("hello world\n");
   }
