@@ -9,6 +9,6 @@ int main(){
 
   int product = a * b;
   cout<<product;
-    
+     
   return 0;
-}
+}  
