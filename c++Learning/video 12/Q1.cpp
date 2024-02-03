@@ -1,13 +1,23 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 
-int main(){
+int main()
+{
 
-   int _myvariable = 12;
-   
-    
-   
-    
-    
+  int num;
+  cout << " Enter your number ";
+  cin >> num;
+
+  int rem, ans = 0, mul = 1;
+  while (num > 0)
+  {
+    rem = num % 2;
+    num = num / 2;
+    ans = rem * mul + ans;
+    mul = mul * 10;
+  }
+
+  cout << ans << endl;
+
   return 0;
 }
