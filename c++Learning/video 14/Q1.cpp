@@ -1,12 +1,11 @@
 #include <iostream>
 using namespace std;
 
-int sum(int m, int n)   // function declare 
+int sum(int m, int n) // function declare
 {
-  int ans = m + n;     // Function Define 
+  int ans = m + n; // Function Define
   return ans;
 }
-
 
 int mul(int a, int b)
 {
@@ -14,9 +13,9 @@ int mul(int a, int b)
   return ans;
 }
 
-void fun ()
+void fun()
 {
-  cout<<"Hello Coder Army";
+  cout << "Hello Mohit Raj";
 }
 
 int main()
